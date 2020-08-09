@@ -1,0 +1,18 @@
+Lenguajes de programación imperativos:
+	Significa que la programación se enfocará en el COMO deben ser las funciones, se enfoca en el procesamiento/manejo de los datos, la manera en que se analizarán.
+	
+(Python)	def suma(x,y):
+		    print(x, " + ", y, " = ", x+y)
+		    return x+y
+
+Lenguajes de programación declarativos:
+	En este la programación se enfoca en el QUE se debe hacer, es decir se declaran las tareas que el programa debe hacer, este paradigma reduce en gran manera las líneas de codigo.
+
+(Python)	from functools import reduce
+	
+		numeros = [1,2,3,4,5,6,7,8,9]
+
+		sumar = reduce(suma, numeros)
+		print(sumar)
+
+	reduce - es una función declarativa propia de python
