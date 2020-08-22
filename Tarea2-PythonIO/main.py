@@ -1,5 +1,5 @@
 import time
-import lectorxml
+import lectorxml, lectorjson, lectorcsv
 
 print("\n\nNota: los archivos se cargarán automaticamente\n\n")
 
@@ -14,12 +14,15 @@ while True:
         if entrada == 1:
             lectorxml.leerxml()
         elif entrada == 2:
-            pass
+            lectorjson.leerjson()
         elif entrada == 3:
-            pass
+            lectorcsv.leercsv()
         elif entrada == 4:
             print("\n - BYE - \n")
-            time.sleep(2)
+            time.sleep(1)
             break
+        else:
+            print("\nOpción no disponible\n")
+            time.sleep(1)
     except ValueError:
         print("\nDebe seleccionar una opción del 1 - 4\n")

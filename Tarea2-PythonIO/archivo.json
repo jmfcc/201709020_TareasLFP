@@ -1,27 +1,27 @@
 {
-    "Articulos":[{
+    "articulos":[{
             "nombre":"Cafe instantaneo",
-            "precio":"Q 20.00",
+            "precio":"20.00",
             "codigo":"001",
-            "existencias":"100 unidades"
+            "existencias":"100"
         },
         {
             "nombre":"Cereal",
-            "precio":"Q 28.00",
+            "precio":"28.00",
             "codigo":"003",
-            "existencias":"150 unidades"
+            "existencias":"150"
         },
         {
             "nombre":"Alcohol etilico",
-            "precio":"Q 10.00",
-            "codigo":"#006",
-            "existencias":"300 unidades"
+            "precio":"10.00",
+            "codigo":"006",
+            "existencias":"300"
         },
         {
             "nombre":"Leche descremada",
-            "precio":"Q 15.00",
-            "codigo":"##008",
-            "existencias":"120 unidades"
+            "precio":"15.00",
+            "codigo":"008",
+            "existencias":"120"
         }
     ]
 }

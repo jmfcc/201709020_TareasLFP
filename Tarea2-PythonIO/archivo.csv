@@ -1,5 +1,5 @@
-nombre,precio,codigo,existencias
-Cafe instantaneo,Q 20.00,001,100 unidades
-Cereal,Q 28.00,003,150 unidades
-Alcohol etilico,Q 10.00,006,300 unidades
-Leche descremada,Q 15.00,008,120 unidades
+Nombre,Precio,Codigo,Existencias
+Cafe instantaneo,20.00,001,100 unidades
+Cereal,28.00,003,150 unidades
+Alcohol etilico,10.00,006,300 unidades
+Leche descremada,15.00,008,120 unidades

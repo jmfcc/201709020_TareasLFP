@@ -2,22 +2,22 @@
 <Tarea>
 <articulo codigo = "001"> 
 <nombre>Cafe instantaneo</nombre>
-<precio>Q 20.00</precio>
-<existencias>100 unidades</existencias>
+<precio>20.00</precio>
+<existencias>100</existencias>
 </articulo>
 <articulo codigo = "003"> 
 <nombre>Cereal</nombre>
 <precio>Q 28.00</precio>
-<existencias>150 unidades</existencias>
+<existencias>150</existencias>
 </articulo>
 <articulo codigo = "006"> 
 <nombre>Alcohol etilico</nombre>
-<precio>Q 10.00</precio>
-<existencias>300 unidades</existencias>
+<precio>10.00</precio>
+<existencias>300</existencias>
 </articulo>
 <articulo codigo = "008"> 
 <nombre>Leche descremada</nombre>
-<precio>Q 15.00</precio>
-<existencias>120 unidades</existencias>
+<precio>15.00</precio>
+<existencias>120</existencias>
 </articulo>
 </Tarea>
