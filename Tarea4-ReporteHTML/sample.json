@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Juan Martinez",
+        "edad": 45,
+        "activo": true,
+        "saldo": 756.46
+    },
+    {
+        "nombre": "Fredy Perez",
+        "edad": 35,
+        "activo": true,
+        "saldo": 376.40
+    },
+    {
+        "nombre": "Maria Lemus",
+        "edad": 25,
+        "activo": true,
+        "saldo": 686.78
+    },
+    {
+        "nombre": "Rogelio Salazar",
+        "edad": 35,
+        "activo": true,
+        "saldo": 256.56
+    },
+    {
+        "nombre": "Natalia Gonzales",
+        "edad": 45,
+        "activo": true,
+        "saldo": 476.23
+    },
+    {
+        "nombre": "Alberto Pacay",
+        "edad": 53,
+        "activo": true,
+        "saldo": 686.83
+    },
+    {
+        "nombre": "Mario Salazar",
+        "edad": 55,
+        "activo": false,
+        "saldo": 12.04
+    },
+    {
+        "nombre": "Priscila Mayen",
+        "edad": 44,
+        "activo": true,
+        "saldo": 876.23
+    },
+    {
+        "nombre": "Ignacio Monterroso",
+        "edad": 63,
+        "activo": true,
+        "saldo": 886.93
+    },
+    {
+        "nombre": "Flor Vazques",
+        "edad": 27,
+        "activo": true,
+        "saldo": 836.29
+    }
+]
