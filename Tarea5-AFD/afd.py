@@ -16,33 +16,25 @@ transiciones = [
 ]
 
 
-def analizadorcadena():
-    print("\n -- Analizador de cadeanas AFD -- ")
-    print("\nNota: para detener el programa solo presione enter.\n")
+def analizadorcadena(cad):
+    print("\n -- Analizando cadena . . . --   ", cad)
 
-    analiza = True
-    while analiza:
-        cad = input("Ingresa una cadena para analizar: ")
-        if cad:
-            estadoActual = "0"
-            nexterr = False
-            for caracter in cad:
-                estadoSiguiente = validaTransicion(estadoActual, definecaracter(caracter))
+    estadoActual = "0"
+    nexterr = False
+    for caracter in cad:
+        estadoSiguiente = validaTransicion(estadoActual, definecaracter(caracter))
 
-                if estadoSiguiente.__eq__("None"):
-                    #print("cadena inválida")
-                    nexterr = True
-                    break
-                else:
-                    #print("Estado Actual: " + estadoActual + "  Simbolo: " + caracter + " ES:" + estadoSiguiente)
-                    estadoActual = estadoSiguiente
-            if estadoActual == "4" and not nexterr:
-                print("Cadena válida")
-            else:
-                print("Cadena inválida")
+        if estadoSiguiente.__eq__("None"):
+            #print("cadena inválida")
+            nexterr = True
+            break
         else:
-            print("Debe ingresar una cadena")
-            analiza = False
+            #print("Estado Actual: " + estadoActual + "  Simbolo: " + caracter + " ES:" + estadoSiguiente)
+            estadoActual = estadoSiguiente
+    if estadoActual == "4" and not nexterr:
+        print("Cadena válida")
+    else:
+        print("Cadena inválida")
 
 def validaTransicion(estadoA, simbolo):
     for tr in transiciones:
@@ -61,4 +53,5 @@ def definecaracter(caracter):
     else:
         return "none"
 
-analizadorcadena()
+analizadorcadena("__servidor1")
+analizadorcadena("3servidor")
